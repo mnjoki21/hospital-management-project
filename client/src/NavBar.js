@@ -1,6 +1,12 @@
 import React from "react";
 
-function NavBar(){
+function NavBar() {
+    return (
+        <header>
+            <h3></h3>
+        </header>
+    )
+
 
 }
 
