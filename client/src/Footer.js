@@ -3,6 +3,9 @@ import {
   Box,
   Container,
   Row,
+  Column,
+  Heading,
+  FooterLink
 } from "./FooterStyles";
   
 const Footer = () => {
@@ -17,8 +20,8 @@ const Footer = () => {
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
-            <p><strong>email:</strong>tibasasa@gmail.com</p>
-            <p><strong>Tel:</strong>+254 758982500</p>
+            <p><strong>email:</strong> tibasasa@gmail.com</p>
+            <p><strong>Tel:</strong> +254 758982500</p>
           </Column>
           <Column>
             <Heading>Social Media</Heading>

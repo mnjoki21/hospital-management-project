@@ -22,6 +22,7 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
+  color: #fff;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -30,7 +31,7 @@ export const Column = styled.div`
 
 export const Row = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 20px;
 
   @media (max-width: 1000px) {
@@ -43,10 +44,10 @@ export const FooterLink = styled.a`
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
-   
+
   &:hover {
-      color: green;
-      transition: 200ms ease-in;
+    color: green;
+    transition: 200ms ease-in;
   }
 `;
 
