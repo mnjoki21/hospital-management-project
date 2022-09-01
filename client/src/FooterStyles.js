@@ -49,3 +49,10 @@ export const FooterLink = styled.a`
       transition: 200ms ease-in;
   }
 `;
+
+export const Heading = styled.p`
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: bold;
+`;
