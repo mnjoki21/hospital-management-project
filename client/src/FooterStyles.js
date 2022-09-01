@@ -37,3 +37,15 @@ export const Row = styled.div`
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 `;
+
+export const FooterLink = styled.a`
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+   
+  &:hover {
+      color: green;
+      transition: 200ms ease-in;
+  }
+`;
