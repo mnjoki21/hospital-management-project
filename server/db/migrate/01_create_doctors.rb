@@ -1,10 +1,14 @@
 class CreateDoctors < ActiveRecord::Migration[6.1]
   def change
-    create_table :doctors do |t|
-      t.string :name
+    create_table :doctors  do |t|  
+      t.string :first_name
+      t.string :last_name
+      t.string :email
+      t.string :phone
+      t.string :address
       t.string :department
-      t.string :specialisation
-      t.integer :office_number
-      t.integer :phone_number
-  end
+      t.string :practice_type
+      t.string :town
+      t.string :ailment_type
+    end
 end
