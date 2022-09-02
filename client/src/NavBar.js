@@ -1,19 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaHeartbeat } from 'react-icons/fa'
+
 
 
 function NavBar() {
-    return (
-        <header>
-            <h3>TIBASASA!</h3>
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/doctors">Doctors</Link>
-                <Link to="/forms">Forms</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contacts">Contacts</Link>
+
+    const navStyle = {
+        color: "white"
+    }
+    return (   
+        <nav >
+            <h3 className="head"> <FaHeartbeat />TIBASASA!</h3>
+                <Link style={navStyle} className="nav" to="/">Home</Link>
+                <Link style={navStyle} className="nav" to="/doctors">Doctors</Link>
+                <Link style={navStyle} className="nav" to="/forms">Forms</Link>
+                <Link style={navStyle} className="nav" to="/about">About</Link>
+                <Link style={navStyle} className="nav" to="/contacts">Contacts</Link>
             </nav>
-        </header>
 
     )
 
