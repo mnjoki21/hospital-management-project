@@ -1,22 +1,23 @@
 import './App.css';
-import { BrowserRouter as Router , Route, Routes, Switch } from 'react-router-dom';
+import { BrowserRouter as Router , Route } from 'react-router-dom';
 import Footer from './Footer';
 import Hero from './Hero';
-import About from './About';
+import NavBar from './NavBar';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Routes>
-          {/* <Route path='/doctors' element={ <Doctors /> } /> */}
-           <Route path='/contacts' element={<Footer />} />
-            <Route path='/about' element={<About />} />
-
-        </Routes>
-      </Router>
-
+        <NavBar />
+          <Route path="/" />
+          <Route path="/doctors" element={Doctors} />
+          <Route path="/forms" element={Forms} />
+          <Route path="/about" element={About } />
+          <Route path="/contacts" element={Contacts} />
+        </Router>
       <Hero />
+      <Footer />
 
       
       
