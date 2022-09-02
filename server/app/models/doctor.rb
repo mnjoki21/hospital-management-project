@@ -1,6 +1,6 @@
 class Doctor < ActiveRecord::Base
-    has many : Patients
-    has many : Ailments, through: : Patients
+    belongs_to :ailment
+    has many :patients, through: :ailments
 
     
 end

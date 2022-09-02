@@ -1,3 +1,4 @@
-class Patients < ActiveRecord::Base
-    belongs_to:Doctor
+class Patient < ActiveRecord::Base
+    belongs_to :ailment
+    has_many :doctors, through: :ailments
 end
