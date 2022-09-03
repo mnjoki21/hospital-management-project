@@ -7,13 +7,10 @@ import Hero from './Hero';
 function App() {
   return (
     <div className="App">
-
       <About />
 
 
       <Hero />
-
-      
     </div>
   );
 }
