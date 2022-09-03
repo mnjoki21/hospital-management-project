@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --mainColor: rgb(104, 22, 36);
+    --mainColorLight: rgb(216, 151, 162);
+    --secondaryColor: rgb(216, 103, 103);
+    --textColor: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: var(--mainColor);
+    color: var(--textColor);
+    text-decoration: none;
+    height: 80px;
+    padding:  0.2rem;
+    margin-top: -115px;
+    
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 1.5rem;
+    
+
+}
+
+.nav-links:hover{
+    color:var(--secondaryColor)
+}
+
+.head{
+    font-size: 2.5rem;
+    margin-right: 50px;
+}
+
+.nav{
+    text-decoration: none;
+    
+}
