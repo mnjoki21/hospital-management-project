@@ -14,7 +14,7 @@ function NavBar() {
             <h3 className="head"> <FaHeartbeat />TIBASASA!</h3>
                 <Link style={navStyle} className="nav" to="/">Home</Link>
                 <Link style={navStyle} className="nav" to="/doctors">Doctors</Link>
-                <Link style={navStyle} className="nav" to="/forms">Forms</Link>
+                <Link style={navStyle} className="nav" to="/forms">Form</Link>
                 <Link style={navStyle} className="nav" to="/about">About</Link>
                 <Link style={navStyle} className="nav" to="/contacts">Contacts</Link>
             </nav>
