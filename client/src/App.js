@@ -9,6 +9,7 @@ import './NavBar.css'
 function App() {
   return (
     <div className="App">
+
       <Router>
         <NavBar />
         <Routes>
