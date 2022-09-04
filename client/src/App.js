@@ -7,7 +7,7 @@ import Hero from './Hero';
 import './NavBar.css'
 import Form from './Form';
 import './Form.css'
-import About from './About'
+// import About from './About'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Link className='nav-links' to='/'>Home</Link>
           <Link className='nav-links' to= '/form'>Booking Form</Link>
           <Link className='nav-links' to= '/doctors'>Doctors</Link>
-          <Link className='nav-links' to= '/contacts'>Contact Us</Link>
+          <Link className='nav-links' to= '/footer'>Contact Us</Link>
           <Link className='nav-links' to= '/about'>About Us</Link>
         </nav>
         <Routes>
