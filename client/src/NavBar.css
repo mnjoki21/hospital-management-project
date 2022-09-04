@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 :root {
     --mainColor: rgb(104, 22, 36);
@@ -16,13 +16,18 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 5vh;
     background-color: var(--mainColor);
     color: var(--textColor);
     text-decoration: none;
-    height: 80px;
+    height: 80%;
     padding: 0.2rem;
     margin-top: -115px;
+    position: sticky ;
+    top: 0;
+    bottom: 0;
+    
+    width: 100vw;
 
 }
 
@@ -35,6 +40,8 @@ nav {
     list-style: none;
     font-weight: 1.5rem;
     color: var(--textColor);
+    padding: 14px 16px;
+
 
 
 }
