@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes,  Route } from 'react-router-dom';
 import Footer from './Footer';
+import About from './About';
 import Hero from './Hero';
 import NavBar from './NavBar';
 import './NavBar.css'
@@ -17,7 +18,7 @@ function App() {
           {/* <Route path="/Doctors" element={ Doctors } /> */}
           {/* <Route path="/Form" element={Form} /> */}
           <Route path="/Footer" element={ Footer } />
-          {/* <Route path="/About" element={About} /> */}
+          <Route path="/About" element={About} />
           
         </Routes>
         </Router>
