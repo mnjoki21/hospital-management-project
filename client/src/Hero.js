@@ -19,6 +19,9 @@ function Hero(){
                     </div>           
                 </div>
             </section>
+            <section>
+                
+            </section>
         </div>
     )
 }
