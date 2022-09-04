@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes,  Route } from 'react-router-dom';
 import About from './About';
 
 import Footer from './Footer';
-// import About from './About';
 import Hero from './Hero';
 import NavBar from './NavBar';
 import './NavBar.css'
