@@ -31,33 +31,10 @@ function App() {
           {/* <Route path='/form' element={ <Form /> } /> */}
           <Route path='/footer' element={ <Footer /> } />
           <Route path='/about' element={ <About /> } />
-          
         </Routes>
-        
         </Router>
-      {/* <Hero /> */}
-      {/* <Footer />  */}
-      {/* <Form /> */}
-
-      
-      
-
     </div>
-
-    // <>
-    //   <Router>
-    //     <NavBar />
-    //     <div>
-    //       <Routes >
-    //         <Route exact path='/' element={ Hero } />
-    //         <Route exact path='/form' element={ Form } />
-    //       {/* <Route exact path='/doctors' element={ Doctors } /> */}
-    //          <Route exact path='/form' element={ Footer } />
-    //       {/* <Route exact path='/about' element={ About } /> */}
-    //       </Routes>
-    //     </div>
-    //   </Router>
-    // </> 
+ 
   );
 }
 
