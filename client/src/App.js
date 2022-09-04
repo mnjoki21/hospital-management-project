@@ -7,7 +7,7 @@ import Hero from './Hero';
 import './NavBar.css'
 import Form from './Form';
 import './Form.css'
-import About from './About'
+// import About from './About'
 
 function App() {
   return (
