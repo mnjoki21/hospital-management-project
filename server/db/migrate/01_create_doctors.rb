@@ -10,5 +10,7 @@ class CreateDoctors < ActiveRecord::Migration[6.1]
       t.string :practice_type
       t.string :town
       t.string :ailment_type
+      t.integer :ailment_id
     end
+  end
 end
