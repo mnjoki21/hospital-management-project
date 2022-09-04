@@ -1,0 +1,63 @@
+.form {
+    background: #fff;
+    box-shadow: 0 30px 60px 0 rgba(206, 18, 150, 0.4);
+    border-radius: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #81123d;
+    z-index: 1;
+    animation: bounce 1.5s infinite;
+    border: none;
+    outline: none;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.secondaryTitle {
+    color: grey;
+}
+
+.name {
+    background-color: #ebebeb;
+    color: black;
+    display: block;
+}
+
+.name:hover {
+    border-bottom: 5px solid #020202;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+}
+
+.submit-btn {
+    width: 200px;
+    color: white;
+    background-color: #6e1024;
+    font-size: 20px;
+}
+
+.submit-btn:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #be0a4f;
+    border-radius: 0%;
+}
+
+@keyframes bounce {
+    0% {
+        tranform: translate(0, 4px);
+    }
+
+    50% {
+        transform: translate(0, 8px);
+    }
+}
