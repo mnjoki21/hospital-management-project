@@ -32,12 +32,6 @@ function App() {
           <Route path='/footer' element={ <Footer /> } />
           <Route path='/about' element={ <About /> } />
         </Routes>
-        <NavBar />
-          <Route path="/" />
-          <Route path="/doctors" element={<Doctors/>} />
-          <Route path="/forms" element={<Forms/>} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contacts" element={<Contacts/>} />
         </Router>
     </div>
  
