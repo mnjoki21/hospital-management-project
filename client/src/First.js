@@ -1,5 +1,6 @@
 import React from "react";
 import './First.css'
+import Hero from "./Hero";
 import ambulance from './img/pexels-pavel-danilyuk-6754163.jpg'
 
 
@@ -12,6 +13,7 @@ function First(){
                     <p className="feel">Need the best service <br /> anywhere anytime</p>
                 </div>
             </section>
+            <Hero />
         </div>
     )
 }
