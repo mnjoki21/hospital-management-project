@@ -1,7 +1,8 @@
 require_relative './config/environment'
+require_relative './app/controllers/applicationController'
 
-class ApplicationController
+# class ApplicationController
 	
-end
+# end
 
 run ApplicationController
