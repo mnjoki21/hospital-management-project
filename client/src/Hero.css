@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap');
 
 *{
     margin: 0;
@@ -14,10 +14,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* working on the hero section */
-.hero .rowcon{
+/* .hero .rowcon{
     position: relative;
     display: flex;
     padding-top: 20px;
@@ -84,4 +84,4 @@ body{
 
 .hero .rowcon .content #exp{
     color: #ec4067;
-}
+} */
