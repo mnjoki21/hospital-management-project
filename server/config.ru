@@ -1,8 +1,6 @@
 require_relative './config/environment'
 require_relative './app/controllers/applicationController'
 
-# class ApplicationController
-	
-# end
+use Rack::JSONBodyParser
 
 run ApplicationController
