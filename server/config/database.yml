@@ -6,6 +6,6 @@ test:
   adapter: sqlite3
   database: db/test.sqlite3
 
-fixed:
-  adapter: sqlite3
-  database: db/fixed.db
+production:
+  adapter: postgresql
+  database: db/production.db
