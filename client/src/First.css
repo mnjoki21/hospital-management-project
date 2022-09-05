@@ -4,11 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    margin-top: 300px;
-    position: relative;
-}
-
 .desc{
     width: auto;
     height: 100vh;
