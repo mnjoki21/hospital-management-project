@@ -1,0 +1,7 @@
+i{
+    font-size: 30px;
+}
+
+i:nth-child(1):hover{
+    background: #00df;
+}
