@@ -10,13 +10,37 @@ function Form() {
     const [ telephone, setTelephone ] = useState('')
     const [ town, setTown ] = useState('')
     const [ ailment, setAilment] = useState('')
+
+    function handleSubmit(e){
+      e.preventDefault()
+      fetch("http://localhost:9292/patients", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          first_name: firstName,
+          last_name: lastName,
+          email: email,
+          phone: telephone,
+          town: town,
+          ailment_type: ailment
+        })
+      })
+      .then(res=> res.json())
+      .then(data => console.log(data))
+      .catch(err => err.message)
+
+      document.querySelector('form').reset()
+    }
     
   return (
-    <div class="container">
-      <div class="contact-box">
-        <div class="left"></div>
-        <div class="right">
+    <div className="container">
+      <div className="contact-box">
+        <div className="left"></div>
+        <div className="right">
           <h2>Book Now</h2>
+          <form onSubmit={handleSubmit}>
             <input
               type='text'
               required
@@ -89,8 +113,9 @@ function Form() {
               <option value='doctor'> Dr.Mwangi</option>
               <option value='doctor'>Dr.Otieno</option>
            </select>
-          <textarea placeholder="Anymore feedback" class="field"></textarea>
-          <button class="btn">Send</button>
+          <textarea placeholder="Anymore feedback" className="field"></textarea>
+          <button className="btn">Send</button>
+          </form>
         </div>
       </div>
 	  </div>
