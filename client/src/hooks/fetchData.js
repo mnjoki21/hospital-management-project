@@ -8,10 +8,10 @@ function useFetchData(){
       .then(res => res.json())
       .then(data => {
         setDoc(data)
-        console.log(data)
+        // console.log(data)
       })
       .catch(err => console.log(err))
-    }, [url])
+    }, [])
     return [doc, setDoc, url]
 }
 

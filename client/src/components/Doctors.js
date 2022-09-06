@@ -25,7 +25,7 @@ function Doctors() {
             {!pat ? "Loading..." : pat?.map((patient)=>{
               return (
               <li key={patient?.id}>
-                <Patient pat={patient}/>
+                <Patient patt={patient}/>
               </li>
               )
             })}

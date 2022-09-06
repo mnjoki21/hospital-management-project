@@ -1,8 +1,10 @@
 import React from 'react'
+import useFetchPatient from '../hooks/fetchPatient'
 
-function Patient({ pat }) {
+function Patient({ patt }) {
+  const [pat, setPat] = useFetchPatient()
   const deletePat = ()=>{
-    fetch(`http://localhost:9292/patients/${pat?.id}`, {
+    fetch(`http://localhost:9292/patients/${patt?.id}`, {
       method: "DELETE",
       headers: {
         "Content-Type":"application/json"
@@ -11,11 +13,19 @@ function Patient({ pat }) {
     .then(res=>res.json())
     .then(data => console.log(data))
     .catch(err=>console.log(err))
+
+    fetch("http://localhost:9292/patients")
+        .then(res => res.json())
+        .then(data => {
+          setPat(data)
+          console.log(data)
+        })
+        .catch(err => console.log(err))
   }
   
   return (
     <>
-       { `${pat?.first_name} ${pat?.last_name} - ${pat?.ailment_type || pat?.ailment_name}` }  <span style={{cursor: "pointer"}} onClick={deletePat}>🗑</span>
+       { `${patt?.first_name} ${patt?.last_name} - ${patt?.ailment_type || patt?.ailment_name}` }  <span style={{cursor: "pointer"}} onClick={deletePat}>🗑</span>
     </>
   )
 }

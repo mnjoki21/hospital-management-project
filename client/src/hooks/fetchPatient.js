@@ -8,7 +8,7 @@ function useFetchPatient(){
         .then(res => res.json())
         .then(data => {
           setPat(data)
-          console.log(data)
+        //   console.log(data)
         })
         .catch(err => console.log(err))
       }, [])
