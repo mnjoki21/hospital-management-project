@@ -1,6 +1,6 @@
 import React from "react";
-import './First.css'
-import ambulance from './img/pexels-pavel-danilyuk-6754163.jpg'
+import '../styles/First.css'
+import ambulance from '../img/pexels-pavel-danilyuk-6754163.jpg'
 
 
 function First(){

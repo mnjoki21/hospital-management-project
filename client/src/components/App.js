@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Routes,} from 'react-router-dom';
 import About from './About';
 import Hero from './Hero';
-import "./App.css"
+import "../styles/App.css"
 import Doctors from './Doctors';
 import Form from './Form';
 import NavBar from './NavBar';
 import Footer from "./Footer"
 import ContactUs from './ContactUs';
-import './ContactUs.css';
+import '../styles/ContactUs.css';
 
 function App() {
   
