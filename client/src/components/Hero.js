@@ -8,7 +8,7 @@ function Hero(){
     const[doctor, setDoctor] = useState([])
   
     useEffect(()=>{
-      fetch('http://localhost:5002/doctors')
+      fetch('http://localhost:9292/doctors')
       .then(res=>res.json())
       .then(data=>setDoctor(data))
     },[]);
