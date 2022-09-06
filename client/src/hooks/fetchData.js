@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 
 function useFetchData(){
     const [doc, setDoc] = useState('')
-    const [url, setUrl] = useState("http://localhost:9292/doctors")
+    const url = "http://localhost:9292/doctors"
     useEffect(()=>{
       fetch(url)
       .then(res => res.json())
@@ -12,7 +12,7 @@ function useFetchData(){
       })
       .catch(err => console.log(err))
     }, [url])
-    return [doc, setDoc, url, setUrl]
+    return [doc, setDoc, url]
 }
 
 export default useFetchData
