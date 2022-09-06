@@ -11,7 +11,7 @@ function NavBar(){
                 <NavLink to='/'>Home</NavLink>
                 <NavLink to= '/form'>Booking Form</NavLink>
                 <NavLink to= '/doctors'>Doctors</NavLink>
-                <NavLink to= '/footer'>Contact Us</NavLink>
+                <NavLink to= '/contactUs'>Contact Us</NavLink>
                 <NavLink to= '/about'>About Us</NavLink>
             </div>
         </div>
