@@ -123,7 +123,7 @@ function Form() {
               <option value='doctor'>Dr.Otieno</option>
            </select>
           <textarea placeholder="Anymore feedback" className="field"></textarea>
-          <button className="btn">Send</button>
+          <button className="btn2">Send</button>
           </form>
         </div>
       </div>
