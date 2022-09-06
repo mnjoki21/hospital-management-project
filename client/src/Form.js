@@ -28,7 +28,16 @@ function Form() {
         })
       })
       .then(res=> res.json())
-      .then(data => console.log(data))
+      .then(data => {
+        console.log(data)
+        setFirstName('')
+        setLastName('')
+        setEmail('')
+        setAddress('')
+        setTelephone('')
+        setTown('')
+        setAilment('')
+      })
       .catch(err => err.message)
 
       document.querySelector('form').reset()
