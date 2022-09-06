@@ -2,7 +2,7 @@ import React from "react";
 import First from "./First";
 import { useState, useEffect } from "react";
 import './Hero.css'
-import doctor from "./img/doctor-2337835_1920.jpg"
+import daktari from "../src/img/doctor-2337835_1920.jpg"
 
 function Hero(){
     const[doctor, setDoctor] = useState([])
@@ -20,7 +20,7 @@ function Hero(){
             <section className="hero">
                 <div className="rowcon">
                     <div className="img">
-                        <img src={doctor} alt=" " />
+                        <img src={daktari} alt=" " />
                     </div>
                     <div className="content">
                         <span>TibaSasa</span>
@@ -30,9 +30,6 @@ function Hero(){
                         <button id="ex"><a href=" " id="exp">Explore</a></button>
                     </div>           
                 </div>
-            </section>
-            <section>
-                
             </section>
         </div>
     )
