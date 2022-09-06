@@ -1,8 +1,8 @@
 import React from "react";
 import First from "./First";
 import { useState, useEffect } from "react";
-import './Hero.css'
-import daktari from "../src/img/doctor-2337835_1920.jpg"
+import '../styles/Hero.css'
+import daktari from "../img/doctor-2337835_1920.jpg"
 
 function Hero(){
     const[doctor, setDoctor] = useState([])
