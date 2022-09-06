@@ -7,6 +7,7 @@ import {
   Heading,
   FooterLink
 } from "./FooterStyle";
+import "./Footer.css"
   
 const Footer = () => {
   return (
@@ -16,18 +17,18 @@ const Footer = () => {
       <Row>
           <Column>
             <Heading>About Us</Heading>
-            <FooterLink href="#">about</FooterLink>
+            <FooterLink href="#">About</FooterLink>
           </Column>
           <Column>
             <Heading>Contact Us</Heading>
-            <p><strong>email:</strong> tibasasa@gmail.com</p>
-            <p><strong>Tel:</strong> +254 758982500</p>
+            <p><strong><i class="fa-solid fa-envelope"></i> Email:</strong> tibasasa@gmail.com</p>
+            <p><strong><i class="fa-solid fa-phone"></i> Tel:</strong> +254 758982500</p>
           </Column>
           <Column>
             <Heading>Social Media</Heading>
-            <p>facebook</p>
-            <p>instagram</p>
-            <p>twitter</p>
+            <p><i class="fa-brands fa-facebook"></i>  Facebook</p>
+            <p><i class="fa-brands fa-instagram"></i> Instagram</p>
+            <p><i class="fa-brands fa-twitter"></i> Twitter</p>
           </Column> 
         </Row>
       </Container>
