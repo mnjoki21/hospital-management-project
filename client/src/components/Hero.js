@@ -24,7 +24,7 @@ function Hero(){
                     </div>
                     <div className="content">
                         <span>TibaSasa</span>
-                        <h2>We are concerned about your health</h2>
+                        <h3>We are concerned about your health</h3>
                         <p>Are you sick and want to be consulted quickly without delays of queueing. Reach us and book for a session with our best doctors</p>
                         <button id="enr"><a href=" " id="enrl">Book Now</a></button>
                         <button id="ex"><a href=" " id="exp">Explore</a></button>
