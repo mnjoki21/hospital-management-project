@@ -6,7 +6,7 @@ const About = () => {
             <div className="about-container text-center">
                 <div className="about-container-clone d-flex justify-content-center align-items-center">
                     <div>
-                        <h1 className="display-1 text-white shadow-lg">WECOME TO ABOUT PAGE</h1>
+                        <h1 className="display-1 text-black shadow-lg">WELCOME TO ABOUT PAGE</h1>
                     </div>
                 </div>
             </div>
