@@ -1,10 +1,22 @@
 import React from "react";
+import First from "./First";
+import { useState, useEffect } from "react";
 import './Hero.css'
 import doctor from "./img/doctor-2337835_1920.jpg"
 
 function Hero(){
+    const[doctor, setDoctor] = useState([])
+  
+    useEffect(()=>{
+      fetch('http://localhost:5002/doctors')
+      .then(res=>res.json())
+      .then(data=>setDoctor(data))
+    },[]);
     return(
         <div>
+            <section className="ambulance">
+                <First />
+            </section>
             <section className="hero">
                 <div className="rowcon">
                     <div className="img">
@@ -18,6 +30,9 @@ function Hero(){
                         <button id="ex"><a href=" " id="exp">Explore</a></button>
                     </div>           
                 </div>
+            </section>
+            <section>
+                
             </section>
         </div>
     )

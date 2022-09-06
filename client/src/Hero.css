@@ -7,13 +7,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    position: relative;
-    height: 100vh;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.ambulance{
+    margin-bottom: -100px;
 }
 
 /* working on the hero section */
@@ -28,7 +23,7 @@ body{
 }
 
 .hero .rowcon .img img{
-    width: 400px;
+    width: 500px;
     height: 400px;
     padding-left: 30px;
 }

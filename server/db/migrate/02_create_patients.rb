@@ -11,6 +11,7 @@ class CreatePatients < ActiveRecord::Migration[6.1]
       t.string :town
       t.string :ailment_name
       t.string :ailment_type
+      t.integer :ailment_id
     end
   end
 end
