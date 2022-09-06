@@ -56,6 +56,7 @@ class ApplicationController < Sinatra::Base
 
   delete '/doctors/:id' do
     deleted = Doctor.find(params[:id])
+    puts deleted
     deleted.destroy
     deleted.to_json
   end

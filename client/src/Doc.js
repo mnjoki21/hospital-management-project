@@ -15,7 +15,7 @@ function Doc({ doctor }) {
   
   return (
     <>
-       { `${doctor?.first_name} ${doctor?.last_name} - ${doctor?.ailment_type || doctor?.ailment_name}` }  <span onClick={deleteDoc}>🗑</span>
+       { `${doctor?.first_name} ${doctor?.last_name} - ${doctor?.ailment_type || doctor?.ailment_name}` }  <span style={{cursor: "pointer"}} onClick={deleteDoc}>🗑</span>
     </>
   )
 }
